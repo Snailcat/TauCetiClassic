@@ -780,7 +780,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/assembly/robotics
 	name = "Robotics Lab"
-	icon_state = "ass_line"
+	icon_state = "scirobo"
 
 /area/assembly/assembly_line //Derelict Assembly Line
 	name = "Assembly Line"
@@ -996,7 +996,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/rnd/lab
 	name = "Research and Development"
-	icon_state = "toxlab"
+	icon_state = "scilab"
 
 /area/rnd/hallway
 	name = "Research Division"
@@ -1004,7 +1004,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/rnd/xenobiology
 	name = "Xenobiology Lab"
-	icon_state = "toxlab"
+	icon_state = "scixeno"
 
 /area/rnd/storage
 	name = "Toxins Storage"
@@ -1014,21 +1014,25 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Toxins Test Site"
 	icon_state = "toxtest"
 
+/area/rnd/tox_launch
+	name = "Toxins Launch Room"
+	icon_state = "toxlaunch"
+
 /area/rnd/mixing
 	name = "Toxins Mixing Room"
 	icon_state = "toxmix"
 
 /area/rnd/misc_lab
 	name = "Miscellaneous Research"
-	icon_state = "toxmisc"
+	icon_state = "scimisc"
 
 /area/rnd/telesci
 	name = "Telescience Lab"
-	icon_state = "toxmisc"
+	icon_state = "scitele"
 
 /area/rnd/scibreak
 	name = "Science Breaktime Room"
-	icon_state = "toxlab"
+	icon_state = "scibreak"
 
 /area/toxins/server
 	name = "Server Room"
